@@ -42,12 +42,15 @@ on peut également transmettre plusieurs options en amont
 sh os_query.sh -isprio -n7 -d/usr/include
 ```
 <br/>
+
 Une fois le mode interactif lancé, les commandes suivantes sont disponibles : top, sort, cd, kill, renice<br/>
+
 ```
-> top <nombre entier>
-> sort <mem | cpu | prio | start>
-> cd <chemin absolu>
-> kill <pid>
-> renice <pid> <prio>
+top <nombre entier>
+sort <mem | cpu | prio | start>
+cd <chemin absolu>
+kill <pid>
+renice <pid> <prio>
 ```
+<br/>
 Pour la commande renice, servant à modifier la priorité d'un processus, la valeur de priorité va de 19 (basse priorité) à -20 (haute priorité)
