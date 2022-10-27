@@ -2,7 +2,7 @@
 Script shell POSIX permettant :
 - L'affichage des informations système de base (Version de l'OS, date de dernier boot, nombre d'utilisateurs connectés)
 - L'affichage de N processus triés selon un critère (mémoire réservée, temps processeur, prorité, date de lancement)
-- L'affichage de N fichiers réguliers occupant le plus d'espace disque à partir d'un répertoir choisit par l'utilisateur
+- L'affichage de N fichiers réguliers occupant le plus d'espace disque à partir d'un répertoire choisit par l'utilisateur
 - L'envoie de signaux à des processus
 - La modification de la valeur de priorité d'un processus
 
