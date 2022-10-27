@@ -12,7 +12,7 @@ Script shell POSIX permettant :
 ```
 sh os_query.sh
 ```
-
+<img alt="mode non interactif" src="screen/mode_non_interactif.png">
 ### Mode interactif
 -i pour lancer ce mode
 ```
@@ -41,9 +41,10 @@ on peut également transmettre plusieurs options en amont
 ```
 sh os_query.sh -isprio -n7 -d/usr/include
 ```
+<img alt="mode interactif" src="screen/mode_interactif.png">
 <br/>
 
-Une fois le mode interactif lancé, les commandes suivantes sont disponibles : top, sort, cd, kill, renice<br/>
+Une fois le mode interactif lancé, les commandes suivantes sont disponibles : top, sort, cd, kill, renice, quit<br/>
 
 ```
 top <nombre entier>
@@ -51,6 +52,8 @@ sort <mem | cpu | prio | start>
 cd <chemin absolu>
 kill <pid>
 renice <pid> <prio>
+quit
 ```
 <br/>
-Pour la commande renice, servant à modifier la priorité d'un processus, la valeur de priorité va de 19 (basse priorité) à -20 (haute priorité)
+Pour la commande renice, servant à modifier la priorité d'un processus, la valeur de priorité va de 19 (basse priorité) à -20 (haute priorité)<br/>
+Se servir de la commande **quit** pour terminer le script.
