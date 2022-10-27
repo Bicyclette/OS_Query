@@ -12,9 +12,10 @@ Script shell POSIX permettant :
 ```
 sh os_query.sh
 ```
-<br>
+<br/>
 <img alt="mode non interactif" src="screen/mode_non_interactif.png">
-<br>
+<br/>
+
 ### Mode interactif
 -i pour lancer ce mode
 ```
@@ -43,7 +44,7 @@ on peut également transmettre plusieurs options en amont
 ```
 sh os_query.sh -isprio -n7 -d/usr/include
 ```
-<br>
+<br/>
 <img alt="mode interactif" src="screen/mode_interactif.png">
 <br/>
 
